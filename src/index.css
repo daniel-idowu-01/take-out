@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins-Bold-Italic';
+    src: 
+         url('./fonts/Poppins-BoldItalic.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-Bold';
+    src: 
+         url('./fonts/Poppins-ExtraBold.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Parisienne-Regular';
+    src: 
+         url('./fonts/Parisienne-Regular.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'Poppins-Regular';
+    src: 
+         url('./fonts/Poppins-Regular.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+  }
+  
+
+.logo-text {
+  font-family: 'Poppins-Bold-Italic';
+}
+
+.login-text {
+  font-family: 'Poppins-Bold';
+}
+
+.login-btn {
+  font-family: 'Poppins-Regular';
+}
+
+.motto {
+    font-family: 'Parisienne-Regular';
+}
